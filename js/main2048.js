@@ -157,9 +157,7 @@ function gameover(){
 	else if(r==false)
 	  {
 		alert("关闭页面");
-		window.opener=null;
-            	window.open('','_self');
-		window.close();
+		open(location, '_self').close();
 	  }
 }
 
