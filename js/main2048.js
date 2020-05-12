@@ -157,7 +157,8 @@ function gameover(){
 	else if(r==false)
 	  {
 		alert("关闭页面");
-		open(location, '_self').close();
+		window.location.href="about:blank";
+		window.close();
 	  }
 }
 
